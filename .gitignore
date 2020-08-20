@@ -1,0 +1,7 @@
+node_modules
+/.idea
+/.vscode
+/**/*/.envrc
+.DS_Store
+src/package-lock.json
+code/backend/lambdas/unit-segments/src/lambda-launcher.ts

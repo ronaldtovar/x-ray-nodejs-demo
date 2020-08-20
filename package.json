@@ -1,0 +1,26 @@
+{
+  "name": "x-ray",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --debug --progress --verbose"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.737.0",
+    "aws-xray-sdk": "^3.1.0",
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {
+    "path": "^0.12.7",
+    "terser-webpack-plugin": "^4.1.0",
+    "ts-loader": "^8.0.2",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "zip-webpack-plugin": "^3.0.0"
+  }
+}
